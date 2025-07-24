@@ -10,3 +10,8 @@ or run `npm run start:backend` to start only backend, and `npm run start:fronten
 ## Running each server individually:
 Run `npm run start` inside the `frontend/` directory to start frontend server\
 Run `npm run dev` inside the `backend/` directory to start backend server\
+
+## Testing:
+For now only backend is working. You can verify that everything is setup by running\
+`npm run start:backend` at root or `npm run dev` in `backend/`, going to `127.0.0.1:3000`\
+on your browser and seeing if it displays a hello world message
